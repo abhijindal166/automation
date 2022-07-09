@@ -159,4 +159,10 @@ public class steps extends BaseClass {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new cucumber.api.PendingException();
 	}
+	@When("click on {string}")
+public void click_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
 }
