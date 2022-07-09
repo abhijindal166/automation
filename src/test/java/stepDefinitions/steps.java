@@ -164,8 +164,8 @@ public void click_on(String string) {
     // Write code here that turns the phrase above into concrete actions
     throw new cucumber.api.PendingException();
 }
-@When("click on {string}")
-public void click_on(String string) {
+@When("choose {string} from dropdown")
+public void choose_from_dropdown(String string) {
     // Write code here that turns the phrase above into concrete actions
     throw new cucumber.api.PendingException();
 }
