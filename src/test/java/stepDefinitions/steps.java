@@ -136,5 +136,27 @@ public class steps extends BaseClass {
 	public void click_on_logout_button() {
 	   addCust.clickOnLogout();
 	}
-	
+	@When("User click on selectfile Menu")
+	public void user_click_on_selectfile_Menu() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("click on CUST_CDD_DETAILS")
+	public void click_on_CUST_CDD_DETAILS() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("click on compare button")
+	public void click_on_compare_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("table should contain values")
+	public void table_should_contain_values() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
 }
