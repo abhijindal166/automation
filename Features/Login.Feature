@@ -10,3 +10,14 @@ Scenario: Successful Login with Valid Credentials
 	When User click on Log out link 
 	Then Page Title should be "Your store. Login" 
 	And close browser
+	
+	WebDriverWait w=new WebDriverWait(ldriver, 0);
+        try{
+        w.until(ExpectedConditions.alertIsPresent());
+        Alert alrt=ldriver.switchTo().alert();
+        
+        } 
+      catch(Exception e)
+        {
+                  System.out.println("Alert is not present");
+        }}
